@@ -12,9 +12,6 @@ login.addEventListener("click", function (event) {
   console.log(value1.value);
   console.log(value2.value);
   menu.style.display = "none";
-  login.style.display = "none";
-  email.style.display = "none";
-  password.style.display = "none";
   document.querySelector(".spinner").style.display = "block";
   setTimeout(
     () => (window.location.href = "../js_spinner/page/indexSecond.html"),
